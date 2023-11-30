@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbars ul{
+    overflow: auto;
+    text-align: center;
+    font-size: large;
+    padding: 3px;
+    margin: 3px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbars{
+    background-color: black;
+}
+.navbars li a{
+    color: white;
+}
+.navbar{
+    background-color: black;
+    padding: 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li {
+    float: left;
+    list-style: none; 
+    padding-top: 5px;
+    padding-right: 0;
+
+}
+.navbar a:hover{
+    background-color: rgb(59, 53, 53);
+}
+.navbar li a{
+    padding: 4px 4px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    float: center;
+    font-size: large;
+    padding-top: 0%;
+}
+.back_video {
+    position: absolute;
+    width: 100%;
+}
+span{
+    font-style: italic;
+}
+.jewel{
+    width: 100%;
+    padding-top: 50px;
+    height: 800px;
+}
+.back_video1 {
+    width: 100%;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+span{
+    margin: 0%;
+}
+.banner-card{
+    position: relative;
+    padding-right: 0%;
+}
+.banner-text{
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 500px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+button{
+    font-size: 30px;
+}
+.banner-text :hover{
+    color: grey;
+}
+.sabya-card{
+    position: relative;
+}
+.sabya-text{
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 300px;  
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+button{
+    font-size: 30px;
+}
+.jewel-card{
+    position: relative;
+    box-sizing: border-box;
+    
+}
+.jewel-text{
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 300px;
+    font-size: 40px;
+    top: 0;
+    font-style: italic;
+}
+button{
+    font-size:30px;
+}
+.jewel-text :hover{
+    color: grey;
+}
+.wedding-card{
+    position: relative;
+    height: 700px;
+    padding: auto;
+    padding-top: 0%;
+    padding-bottom: 0;
+
+}
+.wedding-text{
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 300px;  
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+button{
+    font-size: 30px;
+}
+.access-card{
+    position: relative;
+    height: 1x;
+
+}
+.access-text{
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 300px;  
+    color: white;
+    font-size: 30px;
+}
+button{
+    font-size: 30px;
+}
+span{
+padding: 300px;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-display: bold;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 70px 0;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}

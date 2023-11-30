@@ -1,0 +1,254 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    color: black;
+    
+}
+.bg-img {
+        /* The image used */
+        background-image: url("bw.jpg");
+      
+        min-height: 380px;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        /* Needed to position the navbar */
+        position: relative;          
+}
+.bg-img-txt{
+        position: absolute;
+        text-align: center;
+        transform: translate(-50%,-50%);
+        color:rgb(189, 52, 52);
+        top: 50%;
+        left: 50%;
+        font-size: 20px;    
+        padding: 0%;
+        margin: 0%;   
+}
+.bg-img-txt button{
+        text-align: center;
+        cursor: pointer;
+        border-style: calc();
+        outline: 0;
+        padding: 10px 25px;
+       color: black;
+    background-color: #ddd;
+}
+.bg-img-txt button:hover{
+    color: grey;
+}
+img{
+    float: left;
+    width: 500ox;
+    height: 500px;
+    margin-left: 45px;
+    padding: 25px;
+    padding-right: 50px;
+    padding-left: 25px;
+}
+span{
+    color:rgb(189, 52, 52); 
+    float: center;
+    display: flex;
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+.image {
+    max-width: 30%;
+    height :25%;
+    float: left;
+    margin: 30px;
+  }
+  
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 0;
+    float: left;
+    color: white;
+  }
+  .btn{
+    padding: 10px;
+    border-color: rgb(189, 52, 52);
+  }
+.button :hover{
+    color: rgb(189, 52, 52);
+  }
+
+
+h1{
+    text-align: center;
+}
+h3{
+    margin: 5px;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: rgb(189, 52, 52);
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar :hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 1px 2px rgba(0,0,0,0.24);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(189, 52, 52)0%, rgba(252,103,103,1)100%);
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 90%;
+    animation: css 3s;
+}
+.js{
+    width: 30%;
+    animation: js 3s;
+}
+.communication{
+    width: 90%;
+    animation: communication 3s;
+}
+section.project{
+    background-color: grey;
+    color: rgb(189, 52, 52);
+    height: 500px;
+    text-align: center;
+}
+.text-heading{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(189, 52, 52);;
+
+}
+.project{
+    background-color: rgb(201, 194, 194);
+    height: 700px;
+}
+.project-text{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(189, 52, 52) ;
+    margin-top: 30px;
+    padding :30px;
+    float: center;
+    padding-left: 500px;
+}
+span{
+    text-align: center;
+
+}
+.img{
+    padding: 0%;
+    margin: 0;
+    display: table;
+    margin-left: 5px;
+}
+p.c{
+    word-spacing: 400px;
+    margin: 30px;
+    font-size: 20px;
+}
+.flower{
+        background-image: url("f1.jpg");   
+        min-height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;     
+        margin-top: 30px;
+        
+}
+.flower-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-align: center;
+  
+    color:rgb(189, 52, 52);
+    
+    font-size: 20px;    
+    padding: 0%;
+    margin: 0%;   
+}
+.flower button{
+    cursor: pointer;
+    color:white ;
+    padding: 10px;
+    border-radius:50%;
+    background-color: rgb(189, 52, 52);
+}
+.contact-text{
+    text-align: center;
+    float: center;
+    margin: 30px;
+    padding-left: 500px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(189, 52, 52);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:orangered;
+  }
+  
+  /* Style the container/contact section */
+  .container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: center;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
